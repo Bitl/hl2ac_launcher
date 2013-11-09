@@ -4,3 +4,9 @@ E:\Programs\SharpDevelop Projects\hl2ac_launcher\hl2ac_launcher\obj\Release\hl2a
 E:\Programs\SharpDevelop Projects\hl2ac_launcher\hl2ac_launcher\obj\Release\GenerateResource.read.1.tlog
 E:\Programs\SharpDevelop Projects\hl2ac_launcher\hl2ac_launcher\obj\Release\GenerateResource.write.1.tlog
 E:\Programs\SharpDevelop Projects\hl2ac_launcher\hl2ac_launcher\obj\Release\hl2ac_launcher.exe
+C:\Documents and Settings\Michael\My Documents\GitHub\hl2ac_launcher\hl2ac_launcher\hl2ac_launcher\bin\Release\hl2ac_launcher.exe
+C:\Documents and Settings\Michael\My Documents\GitHub\hl2ac_launcher\hl2ac_launcher\hl2ac_launcher\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Michael\My Documents\GitHub\hl2ac_launcher\hl2ac_launcher\hl2ac_launcher\obj\Release\hl2ac_launcher.MainForm.resources
+C:\Documents and Settings\Michael\My Documents\GitHub\hl2ac_launcher\hl2ac_launcher\hl2ac_launcher\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Michael\My Documents\GitHub\hl2ac_launcher\hl2ac_launcher\hl2ac_launcher\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Michael\My Documents\GitHub\hl2ac_launcher\hl2ac_launcher\hl2ac_launcher\obj\Release\hl2ac_launcher.exe

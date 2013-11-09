@@ -55,6 +55,9 @@ namespace hl2ac_launcher
 			this.checkBox3 = new System.Windows.Forms.CheckBox();
 			this.button1 = new System.Windows.Forms.Button();
 			this.button2 = new System.Windows.Forms.Button();
+			this.label3 = new System.Windows.Forms.Label();
+			this.textBox5 = new System.Windows.Forms.TextBox();
+			this.checkBox4 = new System.Windows.Forms.CheckBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -70,7 +73,7 @@ namespace hl2ac_launcher
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(13, 241);
+			this.label2.Location = new System.Drawing.Point(12, 298);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(89, 27);
 			this.label2.TabIndex = 9;
@@ -81,7 +84,7 @@ namespace hl2ac_launcher
 			// 
 			this.button5.Location = new System.Drawing.Point(314, 185);
 			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(131, 26);
+			this.button5.Size = new System.Drawing.Size(131, 34);
 			this.button5.TabIndex = 10;
 			this.button5.Text = "Launch";
 			this.button5.UseVisualStyleBackColor = true;
@@ -89,15 +92,15 @@ namespace hl2ac_launcher
 			// 
 			// textBox2
 			// 
-			this.textBox2.Location = new System.Drawing.Point(118, 271);
+			this.textBox2.Location = new System.Drawing.Point(118, 328);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(89, 20);
 			this.textBox2.TabIndex = 13;
-			this.textBox2.Text = "1366";
+			this.textBox2.Text = "1360";
 			// 
 			// textBox3
 			// 
-			this.textBox3.Location = new System.Drawing.Point(213, 271);
+			this.textBox3.Location = new System.Drawing.Point(213, 328);
 			this.textBox3.Name = "textBox3";
 			this.textBox3.Size = new System.Drawing.Size(89, 20);
 			this.textBox3.TabIndex = 14;
@@ -105,16 +108,16 @@ namespace hl2ac_launcher
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(113, 241);
+			this.label4.Location = new System.Drawing.Point(118, 298);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(94, 27);
+			this.label4.Size = new System.Drawing.Size(89, 27);
 			this.label4.TabIndex = 15;
 			this.label4.Text = "Width";
 			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// label5
 			// 
-			this.label5.Location = new System.Drawing.Point(213, 241);
+			this.label5.Location = new System.Drawing.Point(213, 298);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(89, 27);
 			this.label5.TabIndex = 16;
@@ -133,7 +136,7 @@ namespace hl2ac_launcher
 			// 
 			// label6
 			// 
-			this.label6.Location = new System.Drawing.Point(13, 215);
+			this.label6.Location = new System.Drawing.Point(12, 215);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(289, 26);
 			this.label6.TabIndex = 18;
@@ -141,7 +144,7 @@ namespace hl2ac_launcher
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(13, 271);
+			this.textBox1.Location = new System.Drawing.Point(13, 328);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(89, 20);
 			this.textBox1.TabIndex = 19;
@@ -151,7 +154,7 @@ namespace hl2ac_launcher
 			// 
 			this.checkBox1.Checked = true;
 			this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox1.Location = new System.Drawing.Point(314, 215);
+			this.checkBox1.Location = new System.Drawing.Point(314, 225);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(123, 16);
 			this.checkBox1.TabIndex = 20;
@@ -163,7 +166,7 @@ namespace hl2ac_launcher
 			// 
 			this.checkBox2.Checked = true;
 			this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox2.Location = new System.Drawing.Point(314, 237);
+			this.checkBox2.Location = new System.Drawing.Point(314, 250);
 			this.checkBox2.Name = "checkBox2";
 			this.checkBox2.Size = new System.Drawing.Size(131, 17);
 			this.checkBox2.TabIndex = 21;
@@ -173,14 +176,14 @@ namespace hl2ac_launcher
 			// textBox4
 			// 
 			this.textBox4.Enabled = false;
-			this.textBox4.Location = new System.Drawing.Point(12, 318);
+			this.textBox4.Location = new System.Drawing.Point(12, 383);
 			this.textBox4.Name = "textBox4";
 			this.textBox4.Size = new System.Drawing.Size(289, 20);
 			this.textBox4.TabIndex = 22;
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(13, 294);
+			this.label1.Location = new System.Drawing.Point(12, 357);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(288, 23);
 			this.label1.TabIndex = 23;
@@ -189,7 +192,7 @@ namespace hl2ac_launcher
 			// 
 			// checkBox3
 			// 
-			this.checkBox3.Location = new System.Drawing.Point(314, 260);
+			this.checkBox3.Location = new System.Drawing.Point(314, 273);
 			this.checkBox3.Name = "checkBox3";
 			this.checkBox3.Size = new System.Drawing.Size(139, 21);
 			this.checkBox3.TabIndex = 24;
@@ -199,9 +202,9 @@ namespace hl2ac_launcher
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(314, 287);
+			this.button1.Location = new System.Drawing.Point(312, 356);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(139, 23);
+			this.button1.Size = new System.Drawing.Size(139, 21);
 			this.button1.TabIndex = 26;
 			this.button1.Text = "Load Configuration";
 			this.button1.UseVisualStyleBackColor = true;
@@ -209,19 +212,48 @@ namespace hl2ac_launcher
 			// 
 			// button2
 			// 
-			this.button2.Location = new System.Drawing.Point(314, 316);
+			this.button2.Location = new System.Drawing.Point(312, 383);
 			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(139, 23);
+			this.button2.Size = new System.Drawing.Size(139, 21);
 			this.button2.TabIndex = 27;
 			this.button2.Text = "Save Configuration";
 			this.button2.UseVisualStyleBackColor = true;
 			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
+			// label3
+			// 
+			this.label3.Location = new System.Drawing.Point(90, 250);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(133, 15);
+			this.label3.TabIndex = 28;
+			this.label3.Text = "Custom NESYS Host IP";
+			// 
+			// textBox5
+			// 
+			this.textBox5.Enabled = false;
+			this.textBox5.Location = new System.Drawing.Point(12, 273);
+			this.textBox5.Name = "textBox5";
+			this.textBox5.Size = new System.Drawing.Size(289, 20);
+			this.textBox5.TabIndex = 29;
+			// 
+			// checkBox4
+			// 
+			this.checkBox4.Location = new System.Drawing.Point(314, 298);
+			this.checkBox4.Name = "checkBox4";
+			this.checkBox4.Size = new System.Drawing.Size(137, 34);
+			this.checkBox4.TabIndex = 30;
+			this.checkBox4.Text = "Enable Custom NESYS Host IP";
+			this.checkBox4.UseVisualStyleBackColor = true;
+			this.checkBox4.CheckedChanged += new System.EventHandler(this.CheckBox4CheckedChanged);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(463, 358);
+			this.ClientSize = new System.Drawing.Size(463, 415);
+			this.Controls.Add(this.checkBox4);
+			this.Controls.Add(this.textBox5);
+			this.Controls.Add(this.label3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.checkBox3);
@@ -248,6 +280,9 @@ namespace hl2ac_launcher
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.CheckBox checkBox4;
+		private System.Windows.Forms.TextBox textBox5;
+		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.CheckBox checkBox3;

@@ -40,13 +40,24 @@ namespace hl2ac_launcher
             	label6.Text = "You already did the host redirection!";
             	label6.ForeColor = System.Drawing.Color.Red;
             }
+            else if (hostsText.Contains(textBox5.Text + "    bg3test.cg.taito.co.jp"))
+            {
+            	label6.Text = "You already did the host redirection!";
+            	label6.ForeColor = System.Drawing.Color.Red;
+            }
             else
             {
-            	StreamWriter writer = new StreamWriter(path);
-            	writer.Write(Environment.NewLine);
+            	StreamWriter writer = new StreamWriter(path, true);
             	writer.Write("##Survivor host redirection");
             	writer.Write(Environment.NewLine);
-            	writer.Write("127.0.0.1    bg3test.cg.taito.co.jp");
+            	if (checkBox4.Checked == false)
+				{
+            		writer.Write("127.0.0.1    bg3test.cg.taito.co.jp");
+            	}
+            	else
+            	{
+            		writer.Write(textBox5.Text + "    bg3test.cg.taito.co.jp");
+            	}
             	writer.Dispose();
             	label6.Text = "Host redirection completed!";
             	label6.ForeColor = System.Drawing.Color.Lime;
@@ -103,7 +114,7 @@ namespace hl2ac_launcher
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			string line1, line2, line3, line4;
+			string line1, line2, line3, line4, line5;
 
 			using(StreamReader reader = new StreamReader("hl2ac_config.txt")) 
 			{
@@ -111,21 +122,35 @@ namespace hl2ac_launcher
     			line2 = reader.ReadLine();
     			line3 = reader.ReadLine();
     			line4 = reader.ReadLine();
+    			line5 = reader.ReadLine();
 			}
 			
 			textBox1.Text = line1;
 			textBox2.Text = line2;
 			textBox3.Text = line3;
 			textBox4.Text = line4;
+			textBox5.Text = line5;
 			
-			MessageBox.Show("Config Loaded.");
+			MessageBox.Show("Configuration Loaded.");
 		}
 		
 		void Button2Click(object sender, EventArgs e)
 		{ 
-        	string[] lines = { textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text };
+        	string[] lines = { textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text };
         	System.IO.File.WriteAllLines("hl2ac_config.txt", lines);
 			MessageBox.Show("Config Saved.");
+		}
+		
+		void CheckBox4CheckedChanged(object sender, EventArgs e)
+		{
+			if (checkBox4.Checked == false)
+			{
+				textBox5.Enabled = false;
+			}
+			else
+			{
+				textBox5.Enabled = true;
+			}
 		}
 	}
 }
