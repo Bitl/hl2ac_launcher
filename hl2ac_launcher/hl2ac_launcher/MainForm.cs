@@ -31,16 +31,17 @@ namespace hl2ac_launcher
 			//
 		}
 		
+		void MainFormLoad(object sender, EventArgs e)
+		{
+			string hl2ac_version = "1.2.1";
+			label7.Text = hl2ac_version;
+		}
+		
 		void Button6Click(object sender, System.EventArgs e)
 		{
 			string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.System), @"drivers\etc\hosts");
             string hostsText = File.ReadAllText(path);
-            if (hostsText.Contains("127.0.0.1    bg3test.cg.taito.co.jp"))
-            {
-            	label6.Text = "You already did the host redirection!";
-            	label6.ForeColor = System.Drawing.Color.Red;
-            }
-            else if (hostsText.Contains(textBox5.Text + "    bg3test.cg.taito.co.jp"))
+            if (hostsText.Contains("bg3test.cg.taito.co.jp"))
             {
             	label6.Text = "You already did the host redirection!";
             	label6.ForeColor = System.Drawing.Color.Red;
@@ -48,6 +49,7 @@ namespace hl2ac_launcher
             else
             {
             	StreamWriter writer = new StreamWriter(path, true);
+            	writer.Write(Environment.NewLine);
             	writer.Write("##Survivor host redirection");
             	writer.Write(Environment.NewLine);
             	if (checkBox4.Checked == false)
@@ -138,7 +140,7 @@ namespace hl2ac_launcher
 		{ 
         	string[] lines = { textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text };
         	System.IO.File.WriteAllLines("hl2ac_config.txt", lines);
-			MessageBox.Show("Config Saved.");
+			MessageBox.Show("Configuration Saved.");
 		}
 		
 		void CheckBox4CheckedChanged(object sender, EventArgs e)

@@ -58,6 +58,7 @@ namespace hl2ac_launcher
 			this.label3 = new System.Windows.Forms.Label();
 			this.textBox5 = new System.Windows.Forms.TextBox();
 			this.checkBox4 = new System.Windows.Forms.CheckBox();
+			this.label7 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -202,7 +203,7 @@ namespace hl2ac_launcher
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(312, 356);
+			this.button1.Location = new System.Drawing.Point(312, 338);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(139, 21);
 			this.button1.TabIndex = 26;
@@ -212,7 +213,7 @@ namespace hl2ac_launcher
 			// 
 			// button2
 			// 
-			this.button2.Location = new System.Drawing.Point(312, 383);
+			this.button2.Location = new System.Drawing.Point(312, 365);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(139, 21);
 			this.button2.TabIndex = 27;
@@ -246,11 +247,20 @@ namespace hl2ac_launcher
 			this.checkBox4.UseVisualStyleBackColor = true;
 			this.checkBox4.CheckedChanged += new System.EventHandler(this.CheckBox4CheckedChanged);
 			// 
+			// label7
+			// 
+			this.label7.Location = new System.Drawing.Point(314, 393);
+			this.label7.Name = "label7";
+			this.label7.Size = new System.Drawing.Size(139, 13);
+			this.label7.TabIndex = 31;
+			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(463, 415);
+			this.Controls.Add(this.label7);
 			this.Controls.Add(this.checkBox4);
 			this.Controls.Add(this.textBox5);
 			this.Controls.Add(this.label3);
@@ -276,10 +286,12 @@ namespace hl2ac_launcher
 			this.MaximizeBox = false;
 			this.Name = "MainForm";
 			this.Text = "Half-Life 2 Survivor Ver2.0 - Launcher";
+			this.Load += new System.EventHandler(this.MainFormLoad);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.CheckBox checkBox4;
 		private System.Windows.Forms.TextBox textBox5;
 		private System.Windows.Forms.Label label3;
