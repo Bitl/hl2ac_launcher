@@ -1,4 +1,4 @@
-hl2ac_launcher leagacy
+hl2ac_launcher legacy
 ==============
 
 C# launcher for Half-Life 2 Survivor
