@@ -33,7 +33,7 @@ namespace hl2ac_launcher
 		
 		void MainFormLoad(object sender, EventArgs e)
 		{
-			string hl2ac_version = "1.2.1";
+			string hl2ac_version = "1.3";
 			label7.Text = hl2ac_version;
 		}
 		
@@ -87,6 +87,11 @@ namespace hl2ac_launcher
 			else
 			{
 				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -heapsize " + textBox1.Text + " -width " + textBox2.Text + " -height " + textBox3.Text + " -ac -english " + textBox4.Text);
+			}
+			
+			if (checkBox5.Checked == true)
+			{
+				this.Close();
 			}
 		}
 		
@@ -153,6 +158,18 @@ namespace hl2ac_launcher
 			{
 				textBox5.Enabled = true;
 			}
+		}
+		
+		void Button3Click(object sender, EventArgs e)
+		{
+        	InstructionsForm btnFm1 = new InstructionsForm();
+			btnFm1.Show();
+		}
+		
+		void Button4Click(object sender, EventArgs e)
+		{
+			InstructionsGameForm btnFm2 = new InstructionsGameForm();
+			btnFm2.Show();
 		}
 	}
 }
