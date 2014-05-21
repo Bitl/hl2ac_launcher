@@ -62,6 +62,7 @@ namespace hl2ac_launcher
 			this.button3 = new System.Windows.Forms.Button();
 			this.button4 = new System.Windows.Forms.Button();
 			this.checkBox5 = new System.Windows.Forms.CheckBox();
+			this.label8 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -252,6 +253,7 @@ namespace hl2ac_launcher
 			// 
 			// label7
 			// 
+			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label7.Location = new System.Drawing.Point(312, 417);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(141, 22);
@@ -262,7 +264,7 @@ namespace hl2ac_launcher
 			// 
 			this.button3.Location = new System.Drawing.Point(12, 418);
 			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(139, 21);
+			this.button3.Size = new System.Drawing.Size(139, 42);
 			this.button3.TabIndex = 32;
 			this.button3.Text = "Launcher Instructions";
 			this.button3.UseVisualStyleBackColor = true;
@@ -272,7 +274,7 @@ namespace hl2ac_launcher
 			// 
 			this.button4.Location = new System.Drawing.Point(157, 418);
 			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(139, 21);
+			this.button4.Size = new System.Drawing.Size(139, 42);
 			this.button4.TabIndex = 33;
 			this.button4.Text = "Game Instructions";
 			this.button4.UseVisualStyleBackColor = true;
@@ -287,11 +289,21 @@ namespace hl2ac_launcher
 			this.checkBox5.Text = "Close the launcher when the game loads";
 			this.checkBox5.UseVisualStyleBackColor = true;
 			// 
+			// label8
+			// 
+			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label8.Location = new System.Drawing.Point(310, 439);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(141, 22);
+			this.label8.TabIndex = 35;
+			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(463, 451);
+			this.ClientSize = new System.Drawing.Size(463, 472);
+			this.Controls.Add(this.label8);
 			this.Controls.Add(this.checkBox5);
 			this.Controls.Add(this.button4);
 			this.Controls.Add(this.button3);
@@ -320,12 +332,12 @@ namespace hl2ac_launcher
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximizeBox = false;
 			this.Name = "MainForm";
-			this.Text = "Half-Life 2 Survivor Ver2.0 - Launcher";
 			this.Load += new System.EventHandler(this.MainFormLoad);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.CheckBox checkBox5;
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Button button3;

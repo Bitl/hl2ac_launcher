@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label5.Text" xml:space="preserve">
-    <value>The "NESYS Host Redirection" button allows you to fix a severe problem where the game would freeze at the splash screen. You can press the button and it will  do what it needs to do, or you can check the "Enable Custom NESYS Host IP" checkbox and type in your specified IP address and then press the button. There is no problem using the default IP though.</value>
+    <value>The "NESYS Host Redirection" button allows you to fix a severe problem where the game would freeze at the splash screen. You can press the button and it will do what it needs to do, or you can check the "Enable Custom NESYS Host IP" checkbox and type in your specified IP address and then press the button. There is no problem using the default IP though.</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>The "Heapsize", "Width", and "Height" textboxes are used to specify the launch options. You can disable "Heapsize" by checking the "Enable Heapsize" checkbox. You can also specify your own by checking the "Enable Launch Options" checkbox and type them in.</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>You can also disable the arcade-y menu that comes with Half-Life 2 Survivor Ver2.0 by checking the "Enable Arcade Menu" checkbox. However this very buggy and you may not be able to do some things the same as the menu, so this is suggested for advanced users only.</value>
+    <value>You can also disable the arcade-ish menu that comes with Half-Life 2 Survivor Ver2.0 by checking the "Enable Arcade Menu" checkbox. However this very buggy and you may not be able to do some things the same as the menu, so this is suggested for advanced users only.</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>And here is the final feature of the launcher, the "Save Configuration" and "Load Configuration buttons. You can press these to save and load configurations using the launcher. However you will have to load your configurations when you launch the launcher again. This will be fixed soon.</value>
+    <value>And here is the final feature of the launcher, the "Save Configuration" and "Load Configuration buttons. You can press these to save and load configurations using the launcher. However, you will have to load your configurations when you launch the launcher again.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
