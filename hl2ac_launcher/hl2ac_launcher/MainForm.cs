@@ -131,23 +131,23 @@ namespace hl2ac_launcher
 		{
 			if (checkBox1.Checked == false)
 			{
-				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -width " + textBox2.Text + " -height " + textBox3.Text + " -ac -english");
+				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -width " + textBox2.Text + " -height " + textBox3.Text + " -ac -english -nesys 0");
 			}
 			else if (checkBox2.Checked == false)
 			{
-				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -heapsize " + textBox1.Text + " -width " + textBox2.Text + " -height " + textBox3.Text + " -english");
+				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -heapsize " + textBox1.Text + " -width " + textBox2.Text + " -height " + textBox3.Text + " -english -nesys 0");
 			}
 			else if (checkBox3.Checked == false)
 			{
-				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -heapsize " + textBox1.Text + " -width " + textBox2.Text + " -height " + textBox3.Text + " -ac -english");
+				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -heapsize " + textBox1.Text + " -width " + textBox2.Text + " -height " + textBox3.Text + " -ac -english -nesys 0");
 			}
 			else if (checkBox1.Checked && checkBox2.Checked && checkBox3.Checked == false)
 			{
-				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -width " + textBox2.Text + " -height " + textBox3.Text + " -english");
+				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -width " + textBox2.Text + " -height " + textBox3.Text + " -english -nesys 0");
 			}
 			else
 			{
-				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -heapsize " + textBox1.Text + " -width " + textBox2.Text + " -height " + textBox3.Text + " -ac -english " + textBox4.Text);
+				System.Diagnostics.Process.Start("hl2.exe", "-sw -game hl2mp -heapsize " + textBox1.Text + " -width " + textBox2.Text + " -height " + textBox3.Text + " -ac -english -nesys 0 " + textBox4.Text);
 			}
 			
 			if (checkBox5.Checked == true)
