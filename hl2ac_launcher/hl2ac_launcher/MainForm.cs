@@ -41,7 +41,7 @@ namespace hl2ac_launcher
 			}
 			else
 			{
-				hl2ac_version = "1.4";
+				hl2ac_version = "1.4.1";
 			}
 			
 			string hl2ac_buildnumber = Application.ProductVersion;
