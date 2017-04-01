@@ -53,8 +53,6 @@ namespace hl2ac_launcher
 			this.textBox4 = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.checkBox3 = new System.Windows.Forms.CheckBox();
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
 			this.label3 = new System.Windows.Forms.Label();
 			this.textBox5 = new System.Windows.Forms.TextBox();
 			this.checkBox4 = new System.Windows.Forms.CheckBox();
@@ -89,7 +87,7 @@ namespace hl2ac_launcher
 			// 
 			this.button5.Location = new System.Drawing.Point(310, 185);
 			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(135, 34);
+			this.button5.Size = new System.Drawing.Size(135, 70);
 			this.button5.TabIndex = 10;
 			this.button5.Text = "Launch";
 			this.button5.UseVisualStyleBackColor = true;
@@ -159,7 +157,7 @@ namespace hl2ac_launcher
 			// 
 			this.checkBox1.Checked = true;
 			this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox1.Location = new System.Drawing.Point(314, 227);
+			this.checkBox1.Location = new System.Drawing.Point(314, 261);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(123, 16);
 			this.checkBox1.TabIndex = 20;
@@ -171,7 +169,7 @@ namespace hl2ac_launcher
 			// 
 			this.checkBox2.Checked = true;
 			this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox2.Location = new System.Drawing.Point(314, 249);
+			this.checkBox2.Location = new System.Drawing.Point(314, 283);
 			this.checkBox2.Name = "checkBox2";
 			this.checkBox2.Size = new System.Drawing.Size(131, 17);
 			this.checkBox2.TabIndex = 21;
@@ -197,33 +195,13 @@ namespace hl2ac_launcher
 			// 
 			// checkBox3
 			// 
-			this.checkBox3.Location = new System.Drawing.Point(314, 272);
+			this.checkBox3.Location = new System.Drawing.Point(314, 306);
 			this.checkBox3.Name = "checkBox3";
 			this.checkBox3.Size = new System.Drawing.Size(139, 21);
 			this.checkBox3.TabIndex = 24;
 			this.checkBox3.Text = "Enable Launch Options";
 			this.checkBox3.UseVisualStyleBackColor = true;
 			this.checkBox3.CheckedChanged += new System.EventHandler(this.CheckBox3CheckedChanged);
-			// 
-			// button1
-			// 
-			this.button1.Location = new System.Drawing.Point(312, 366);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(139, 21);
-			this.button1.TabIndex = 26;
-			this.button1.Text = "Load Configuration";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.Button1Click);
-			// 
-			// button2
-			// 
-			this.button2.Location = new System.Drawing.Point(312, 393);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(139, 21);
-			this.button2.TabIndex = 27;
-			this.button2.Text = "Save Configuration";
-			this.button2.UseVisualStyleBackColor = true;
-			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// label3
 			// 
@@ -243,7 +221,7 @@ namespace hl2ac_launcher
 			// 
 			// checkBox4
 			// 
-			this.checkBox4.Location = new System.Drawing.Point(314, 291);
+			this.checkBox4.Location = new System.Drawing.Point(314, 333);
 			this.checkBox4.Name = "checkBox4";
 			this.checkBox4.Size = new System.Drawing.Size(137, 34);
 			this.checkBox4.TabIndex = 30;
@@ -282,7 +260,7 @@ namespace hl2ac_launcher
 			// 
 			// checkBox5
 			// 
-			this.checkBox5.Location = new System.Drawing.Point(314, 328);
+			this.checkBox5.Location = new System.Drawing.Point(314, 373);
 			this.checkBox5.Name = "checkBox5";
 			this.checkBox5.Size = new System.Drawing.Size(131, 30);
 			this.checkBox5.TabIndex = 34;
@@ -311,8 +289,6 @@ namespace hl2ac_launcher
 			this.Controls.Add(this.checkBox4);
 			this.Controls.Add(this.textBox5);
 			this.Controls.Add(this.label3);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
 			this.Controls.Add(this.checkBox3);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.textBox4);
@@ -345,8 +321,6 @@ namespace hl2ac_launcher
 		private System.Windows.Forms.CheckBox checkBox4;
 		private System.Windows.Forms.TextBox textBox5;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.CheckBox checkBox3;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.TextBox textBox4;
